@@ -10,6 +10,7 @@ p {
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 80px;
 }
 main {
   margin: 1rem;
@@ -96,6 +97,11 @@ nav {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
 }
 
 nav ul {
