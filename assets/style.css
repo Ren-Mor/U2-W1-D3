@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  margin: 1rem;
+}
+h1 {
+  margin-bottom: 1rem;
+  color: #742305;
+  font-size: 2.5rem;
+}
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  gap: 2rem;
+  justify-content: center;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border-radius: 50px;
+  align-content: space-evenly;
+  overflow: hidden;
+  background-color: #fbf7e3;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+.description {
+  margin-left: 1rem;
+}
+
+.description h3 {
+  margin: 0;
+  color: #612406;
+}
+
+.description p {
+  margin-top: 1px;
+  color: #612406;
+
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  color: #612406;
+
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.addButton {
+  margin-top: 1rem;
+  padding: 10px;
+  background-color: #f3df85;
+  color: #612406;
+  cursor: pointer;
+  border: none;
+  border-radius: 2rem;
+  font-weight: bold;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  background-color: #fef7e2;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+}
+nav li {
+  display: inline-block;
+  max-width: 9rem;
+  padding: 8px;
+  background-color: #ffdf7f;
+  border-radius: 25px;
+}
+
+nav li a {
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: #ffdf7f;
+  color: #5c4300;
+}
+
+nav li.middle-button a {
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  background-color: #ffdf7f;
+  color: #4b2d00;
+  display: inline-block;
+  vertical-align: middle;
+}
+#logo {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+article {
+  background-color: #fef7e2;
+  border-radius: 25px;
+  color: #742305;
+
+  padding: 1rem;
+}
+
+article p {
+  margin-bottom: 20px;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  width: 100vw;
+  object-fit: cover;
+}
+
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav ul li img {
+  vertical-align: middle;
+}
+
+nav ul li a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
